@@ -1,0 +1,16 @@
+{
+  "name": "javascript-unit-testing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "coverage": "nyc npm run test && nyc report --reporter=html",
+    "test": "jasmine"
+  },
+  "author": "PinguinoSod",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "nyc": "^14.1.1"
+  }
+}
