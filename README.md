@@ -1,8 +1,6 @@
-# javascript-unit-testing-example
+# javascript-unit-testing-setup-example
 
 Example of javascript testing setup using [Jasmine](https://github.com/jasmine/jasmine) as testing framework and [Istanbul](https://github.com/istanbuljs/nyc) for code coverage.
-
-
 
 ## Installation
 
