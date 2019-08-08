@@ -11,6 +11,14 @@
     "coverage": "nyc --reporter=html npm run test",
     "test": "jasmine"
   },
+  "nyc": {
+    "include": [
+      "src/**/*.js"
+    ],
+    "exclude": [
+      "**/*.spec.js"
+    ]
+  },
   "author": "PinguinoSod",
   "license": "MIT",
   "devDependencies": {
