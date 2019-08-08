@@ -4,11 +4,11 @@
   "description": "Example of javascript testing setup using Jasmine as testing framework and Istanbul for code coverage.",
   "main": "",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/pinguinosod/javascript-unit-testing-setup-example.git"
+    "type": "git",
+    "url": "https://github.com/pinguinosod/javascript-unit-testing-setup-example.git"
   },
   "scripts": {
-    "coverage": "nyc npm run test && nyc report --reporter=html",
+    "coverage": "nyc --reporter=html npm run test",
     "test": "jasmine"
   },
   "author": "PinguinoSod",
